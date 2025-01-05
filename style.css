@@ -280,8 +280,8 @@ body {
 	border-radius: 100px;
 	background: linear-gradient(
 		to right,
-		var(--darkColor-blue) 90%,
-		#00000000 90%
+		var(--darkColor-blue) calc(86.67% - 20px),
+		#00000000 calc(86.67% - 20px)
 	);
 	outline: none;
 	appearance: none;
@@ -1636,8 +1636,9 @@ body #bookmarkButton.bookmark-button.rotate {
 /* ________________End of Searchbar______________________ */
 
 .searchWithCont {
-	margin-top: var(--gap);
-	border-radius: var(--round);
+	margin-top: 30px;
+	border-radius: 20px;
+	overflow: hidden;
 	position: relative;
 	display: flex;
 	font-size: 1rem;
