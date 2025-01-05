@@ -281,7 +281,7 @@ body {
 	background: linear-gradient(
 		to right,
 		var(--darkColor-blue) 90%,
-		#00000000 81%
+		#00000000 90%
 	);
 	outline: none;
 	appearance: none;
