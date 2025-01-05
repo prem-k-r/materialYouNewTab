@@ -146,6 +146,8 @@
 	--shortcut-bar-gap-and-padding: 10px;
 	--shortcut-size: 50px;
 	--always-show-dock-background: 0;
+
+	transform-origin: top left;
 }
 
 /* Theme */
@@ -1670,18 +1672,18 @@ body #bookmarkButton.bookmark-button.rotate {
 	position: absolute;
 	width: 20px;
 	height: 20px;
-	left: -19px;
+	left: -20px;
 	transform: rotate(90deg);
-	bottom: -1px;
+	bottom: 0px;
 }
 
 .autherName .qtRounder2 {
 	position: absolute;
 	width: 20px;
 	height: 20px;
-	right: -1px;
+	right: 0px;
 	transform: rotate(90deg);
-	top: -19px;
+	top: -20px;
 }
 
 .searchWithCont .hint {
