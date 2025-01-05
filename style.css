@@ -280,7 +280,7 @@ body {
 	border-radius: 100px;
 	background: linear-gradient(
 		to right,
-		var(--darkColor-blue) 81%,
+		var(--darkColor-blue) 90%,
 		#00000000 81%
 	);
 	outline: none;
