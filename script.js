@@ -2258,6 +2258,7 @@ function applyZoom(value, min, max) {
     const zoomLevel = ((value - min) / (max - min)) * (1 - 0.6) + 0.6;
     document.documentElement.style.scale = zoomLevel;
     document.documentElement.style.height = `calc(100% / ${zoomLevel})`;
+    document.documentElement.style.overflow = `hidden`;
     document.documentElement.style.width = `calc(100% / ${zoomLevel})`;
     localStorage.setItem('zoomLevel', value);
 }
