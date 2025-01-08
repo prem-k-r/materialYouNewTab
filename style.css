@@ -537,6 +537,7 @@ body {
 	opacity: 0;
 	transition: all 0.5s;
 	pointer-events: none;
+	overflow: hidden;
 	z-index: 4;
 }
 
