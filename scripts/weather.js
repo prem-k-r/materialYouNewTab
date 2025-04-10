@@ -352,9 +352,9 @@ async function getWeatherData() {
                     const { cipherText, iv } = JSON.parse(encryptedData);
                     currentUserLocation = await decryptData(cipherText, iv, key);
                 }
-            } else {
-                usingGPS = false;
             }
+
+            usingGPS = false;
 
             if (!currentUserLocation) {
                 // Fallback to IP-based location if no manual input
