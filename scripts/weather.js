@@ -353,7 +353,6 @@ async function getWeatherData() {
                     currentUserLocation = await decryptData(cipherText, iv, key);
                 }
             }
-
             usingGPS = false;
 
             if (!currentUserLocation) {
@@ -378,8 +377,14 @@ async function getWeatherData() {
         try {
             let parsedData = JSON.parse(localStorage.getItem("weatherParsedData"));
             const weatherParsedTime = parseInt(localStorage.getItem("weatherParsedTime"));
-            const weatherParsedLocation = localStorage.getItem("weatherParsedLocation");
+            let weatherParsedLocation = localStorage.getItem("weatherParsedLocation");
             const weatherParsedLang = localStorage.getItem("weatherParsedLang");
+
+            if (weatherParsedLocation && weatherParsedLocation.startsWith("{") && usingGPS) {
+                const { cipherText, iv } = JSON.parse(weatherParsedLocation);
+                const key = await getKey();
+                weatherParsedLocation = await decryptData(cipherText, iv, key);
+            }
 
             const retentionTime = savedApiKey ? 435000 : 960000; // 7.25 min for user-entered API key, 16 min otherwise
 
