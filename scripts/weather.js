@@ -320,7 +320,7 @@ async function getWeatherData() {
                         });
                     },
                     (error) => reject(error),
-                    { timeout: 6000 }
+                    { timeout: 20000 }
                 );
             });
         };
