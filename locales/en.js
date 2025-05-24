@@ -15,8 +15,10 @@ const en = {
     "adaptiveIconInfoText": "Shortcut icons will match the theme color and appear smaller",
     "bookmarksText": "Bookmarks",
     "bookmarksInfo": "Show bookmarks sidebar",
-    "ai_tools_button": "AI-Tools",
+    "ai_tools_button": "AI Tools",
     "enable_ai_tools": "Show shortcuts for AI tools",
+    "aiToolsSettingsText": "AI Tools Settings",
+    "aiToolsSettingsInfo": "Manage AI tools shortcuts",
     "googleAppsMenuText": "Google Apps",
     "googleAppsMenuInfo": "Show shortcuts for Google Apps",
     "googleAppsHover": "Google Apps",    // Keep this shorter
@@ -29,7 +31,7 @@ const en = {
 
     // Clock
     "hideClockBox": "Hide Clock",
-    "hideClockBoxInfo": "Show or hide the clock and date",
+    "hideClockBoxInfo": "Hide the clock and date",
     "digitalclocktitle": "Digital Clock",
     "digitalclockinfo": "Switch to the digital clock",
     "timeformattitle": "12-Hour Format",
@@ -137,9 +139,13 @@ const en = {
     "gemini": "Gemini",
     "copilot": "Copilot",
     "claude": "Claude",
+    "grok": "Grok",
+    "qwen": "Qwen",
     "perplexity": "Perplexity",
     "deepseek": "DeepSeek",
     "metaAI": "Meta AI",
+    "aiSettingsIntro": "Select which AI tools to display",
+    "resetAISettingsBtn": "Reset",
 
     // Theme
     "enableDarkMode": "Dark Mode (Experimental)",

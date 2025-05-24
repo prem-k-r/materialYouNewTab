@@ -292,18 +292,6 @@ document.addEventListener("DOMContentLoaded", function () {
         const shortcutName = shortcut.querySelector("input.shortcutName").value;
         let url = shortcut.querySelector("input.URL").value.trim();
 
-        // URL validation function
-        function isValidUrl(url) {
-            const pattern = /^(https:\/\/|http:\/\/)?(([a-zA-Z\d-]+\.)+[a-zA-Z]{2,}|(\d{1,3}\.){3}\d{1,3})(\/[^\s]*)?$/i;
-            return pattern.test(url);
-        }
-
-        // Validate URL before normalizing
-        if (!isValidUrl(url)) {
-            // alert("Invalid URL. Please enter a valid URL with http or https protocol.");
-            url = "https://xengshi.github.io/materialYouNewTab/docs/PageNotFound.html";
-        }
-
         // Normalize and encode URL
         const normalizedUrl = encodeURI(
             url.startsWith('https://') || url.startsWith('http://') ? url : 'https://' + url
@@ -472,9 +460,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         if (hostname === "github.com") {
             logo.src = "./svgs/shortcuts_icons/github-shortcut.svg";
-        } else if (urlString === "https://xengshi.github.io/materialYouNewTab/docs/PageNotFound.html") {
-            // Special case for invalid URLs
-            logo.src = "./svgs/shortcuts_icons/invalid-url.svg";
         } else {
             logo.src = GOOGLE_FAVICON_API_FALLBACK(hostname);
 
@@ -538,10 +523,30 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    newShortcutButton.addEventListener("click", () => newShortcut());
+    let focusTimeoutId;
+    newShortcutButton.addEventListener("click", () => {
+        newShortcut();
+
+        // Scroll to the new shortcut and focus on the URL input
+        const allEntries = document.querySelectorAll('.shortcutSettingsEntry');
+        const lastEntry = allEntries[allEntries.length - 1];
+        const urlInput = lastEntry.querySelector('input.URL');
+
+        urlInput.scrollIntoView({ behavior: "smooth", block: "center" });
+
+        clearTimeout(focusTimeoutId);
+        focusTimeoutId = setTimeout(() => {
+            urlInput.focus();
+        }, 800);
+    });
 
     resetShortcutsButton.addEventListener("click", () => {
         resetShortcuts();
+
+        // If newShortcutButton was previously inactive, reactivate it
+        if (newShortcutButton.classList.contains("inactive")) {
+            newShortcutButton.classList.remove("inactive");
+        }
 
         // Animate the reset button
         const svgElement = resetShortcutsButton.querySelector("svg");

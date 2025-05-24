@@ -475,13 +475,10 @@ async function getWeatherData() {
                 const localizedMinTempF = localizeNumbers(minTempF.toString(), currentLanguage);
                 const localizedMaxTempF = localizeNumbers(maxTempF.toString(), currentLanguage);
 
-                // Check if language is RTL
-                const isRTL = rtlLanguages.includes(currentLanguage);
-
                 // Set humidity level
                 const humidityLabel = translations[currentLanguage]?.humidityLevel || translations["en"].humidityLevel;
                 document.getElementById("humidityLevel").textContent = isRTL
-                    ? `${localizedHumidity}% ${humidityLabel}` // RTL: "76% ytidimuH"
+                    ? `${humidityLabel} %${localizedHumidity}` // RTL: "76% ytidimuH"
                     : `${humidityLabel} ${localizedHumidity}%`;
 
                 // Event Listener for the Fahrenheit toggle
@@ -494,6 +491,14 @@ async function getWeatherData() {
                     // List of languages where a space before °F or °C is required
                     const langWithSpaceBeforeDegree = ['cs'];
 
+                    // Range separator for min-max temperature
+                    const rangeSeparator = {
+                        cs: "až",
+                        // Add more languages as needed
+                        default: "~"
+                    };
+                    const separator = rangeSeparator[currentLanguage] || rangeSeparator.default;
+
                     if (fahrenheitCheckbox.checked) {
                         // Update temperature
                         tempElement.textContent = localizedTempFahrenheit;
@@ -505,7 +510,7 @@ async function getWeatherData() {
                         // Update feels like or Min-Max temp
                         const feelsLikeFUnit = langWithSpaceBeforeDegree.includes(currentLanguage) ? ' °F' : '°F';
                         if (isMinMaxEnabled) {
-                            feelsLikeElement.textContent = `${localizedMinTempF} ~ ${localizedMaxTempF}${feelsLikeFUnit}`;
+                            feelsLikeElement.textContent = `${localizedMinTempF} ${separator} ${localizedMaxTempF}${feelsLikeFUnit}`;
                         }
                         else {
                             feelsLikeElement.textContent = isRTL
@@ -523,7 +528,7 @@ async function getWeatherData() {
                         // Update feels like or Min-Max temp
                         const feelsLikeCUnit = langWithSpaceBeforeDegree.includes(currentLanguage) ? ' °C' : '°C';
                         if (isMinMaxEnabled) {
-                            feelsLikeElement.textContent = `${localizedMinTempC} ~ ${localizedMaxTempC}${feelsLikeCUnit}`;
+                            feelsLikeElement.textContent = `${localizedMinTempC} ${separator} ${localizedMaxTempC}${feelsLikeCUnit}`;
                         }
                         else {
                             feelsLikeElement.textContent = isRTL
@@ -543,7 +548,8 @@ async function getWeatherData() {
                 const humidityMinWidth = {
                     idn: "47%",
                     hu: "48%",
-                    en: "42%", // Default for English and others
+                    de: "51%",
+                    en: "42%" // Default for English and others
                 };
                 const slider = document.getElementById("slider");
                 slider.style.minWidth = humidityMinWidth[currentLanguage] || humidityMinWidth["en"];

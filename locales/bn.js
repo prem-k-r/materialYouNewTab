@@ -17,6 +17,8 @@ const bn = {
     "bookmarksInfo": "বুকমার্কস সাইডবার দেখুন",
     "ai_tools_button": "এআই সরঞ্জাম",
     "enable_ai_tools": "এআই সরঞ্জামের শর্টকাট প্রদর্শন করুন",
+    "aiToolsSettingsText": "এআই সরঞ্জাম সেটিংস",
+    "aiToolsSettingsInfo": "এআই সরঞ্জামের শর্টকাট পরিচালনা করুন",
     "googleAppsMenuText": "গুগল অ্যাপস",
     "googleAppsMenuInfo": "গুগল অ্যাপসের শর্টকাট প্রদর্শন করুন",
     "googleAppsHover": "গুগল অ্যাপস",
@@ -46,6 +48,8 @@ const bn = {
     "hideWeatherInfo": "আবহাওয়া উইজেট বন্ধ করুন",
     "hideWeatherBox": "আবহাওয়া কার্ড লুকান",
     "hideWeatherBoxInfo": "শুধুমাত্র তাপমাত্রা পিল দেখান",
+    "minMaxTempText": "সর্বনিম্ন-সর্বাধিক তাপমাত্রা",
+    "minMaxTempSubText": "অনুভূতি তাপমাত্রার পরিবর্তে সর্বনিম্ন ও সর্বাধিক তাপমাত্রা দেখান",
 
     // Search
     "micIconTitle": "মাইক্রোফোন আইকন লুকান",
@@ -103,6 +107,7 @@ const bn = {
     "conditionText": "হ্যালো! আজ আপনি কেমন আছেন?",
     "humidityLevel": "আর্দ্রতা",
     "feelsLike": "অনুভূতি হয়",
+    "minMaxTemp": "নিম্ন ~ উচ্চ",
     "location": "পৃথিবী",
     "enterBtn": "সার্চ করুন",
     "searchPlaceholder": "এখানে টাইপ করুন...",
@@ -136,9 +141,13 @@ const bn = {
     "gemini": "জেমিনি",
     "copilot": "কোপাইলট",
     "claude": "ক্লড",
+    "grok": "গ্রোক",
+    "qwen": "ক্বেন",
     "perplexity": "পারপ্লেক্সিটি",
     "deepseek": "ডিপসিক",
     "metaAI": "মেটা এআই",
+    "aiSettingsIntro": "যে এআই টুলগুলো দেখাতে চান তা নির্বাচন করুন",
+    "resetAISettingsBtn": "রিসেট করুন",
 
     // Theme
     "enableDarkMode": "ডার্ক মোড (পরীক্ষামূলক)",
@@ -184,5 +193,5 @@ const bn = {
     "invalidBackup": "অবৈধ ব্যাকআপ ফাইল নির্বাচিত হয়েছে।",
     "deleteBookmark": "আপনি কি নিশ্চিত যে আপনি \"{title}\" বুকমার্কটি মুছে ফেলতে চান?",
     "UnsupportedBrowser": "আপনার ব্রাউজারে বুকমার্ক সমর্থিত নয়।",
-    "minOneshortcut": "আপনাকে অন্তত একটি শর্টকাট রাখতে হবে।"
+    //"minOneshortcut": "আপনাকে অন্তত একটি শর্টকাট রাখতে হবে।"
 };

@@ -26,7 +26,7 @@ Material You NewTab is a versatile browser extension that personalizes your New 
   <a href="#-features">Features</a> •
   <a href="#-installation-guide">Installation Guide</a> •
   <a href="#download">Download</a> •
-  <a href="#-currently-supported-languages-23">Currently Supported Languages</a> •
+  <a href="#-currently-supported-languages-25">Currently Supported Languages</a> •
   <a href="#-usage">Usage</a>
 <br>
   <a href="#-contributing">Contributing</a> •
@@ -36,7 +36,7 @@ Material You NewTab is a versatile browser extension that personalizes your New 
   <a href="#-license">License</a>
 </p>
 
-<img src="https://i.ibb.co/M1cJHcx/Material-You-New-Tab-Preview.jpg" alt="Screenshot 1" width="100%">
+<img src="https://i.postimg.cc/CF43Yzj1/material-you-new-Tab-poster.webp" alt="Screenshot 1" width="100%">
 
 #### 🔴 🟡 🟢 Test live: [https://xengshi.github.io/materialYouNewTab/](https://xengshi.github.io/materialYouNewTab/)
 
@@ -69,7 +69,7 @@ Material You NewTab is a versatile browser extension that personalizes your New 
 2. **Stable Release** (v3.1)
 
 <p align="center">
-    <a href="https://github.com/XengShi/materialYouNewTab/archive/refs/tags/v3.1.zip"><img src="https://img.shields.io/badge/GitHub-blue?style=for-the-badge&logo=github&logoColor=white&labelColor=grey&color=blue" alt="Download from GitHub" height="47" /></a>
+    <a href="https://github.com/XengShi/materialYouNewTab/archive/refs/tags/v3.zip"><img src="https://img.shields.io/badge/GitHub-blue?style=for-the-badge&logo=github&logoColor=white&labelColor=grey&color=blue" alt="Download from GitHub" height="47" /></a>
     <a href="https://chromewebstore.google.com/detail/material-you-newtab/glloabhodjfmeoccmdngmhkpmdlakfbn"><img src="https://github.com/user-attachments/assets/20a6e44b-fd46-4e6c-8ea6-aad436035753" alt="Download from Chrome Web Store" height="48" /></a>
     <a href="https://addons.mozilla.org/en-US/firefox/addon/material-you-newtab/"><img src="https://github.com/user-attachments/assets/c0e99e6b-97cf-4af2-9737-099db7d3538b" alt="Download from Mozilla Add-ons" height="48" /></a>
     <!-- <a href="https://microsoftedge.microsoft.com/addons/detail/glloabhodjfmeoccmdngmhkpmdlakfbn"><img height="48" src="https://github.com/user-attachments/assets/204157eb-4cae-4c0e-b2cb-db514419fd9e" alt="Download from the Edge Add-ons" /></a> -->
@@ -175,7 +175,7 @@ For a step-by-step walkthrough, watch this [installation guide video](https://yo
 
 [![Watch the video](https://img.youtube.com/vi/P4ryQPixfw8/0.jpg)](https://youtu.be/P4ryQPixfw8)
 
-## 🌐 Currently Supported Languages (23)
+## 🌐 Currently Supported Languages (25)
 
 | Language                                                                                     | Code  | Translator(s)                                                                         |
 | -------------------------------------------------------------------------------------------- | :---: | ------------------------------------------------------------------------------------- |
@@ -183,9 +183,10 @@ For a step-by-step walkthrough, watch this [installation guide video](https://yo
 | <img src='https://flagcdn.com/az.svg' width=20> &nbsp; **Azerbaijani** - Azərbaycanca        |  az   | [Hasan Bakhtiar](https://github.com/hasanbakhtiar/)                                   |
 | <img src='https://flagcdn.com/bd.svg' width=20> &nbsp; **Bangla** - বাংলা                     |  bn   | [It'z RJ](https://github.com/itz-rj-here/), [Prem](https://github.com/prem-k-r/)      |
 | <img src='https://flagcdn.com/cn.svg' width=20> &nbsp; **Chinese** (Simplified) - 简体中文    | zh-CN | [Guy Berryman](https://github.com/Guy-Berryman), [Tianli](https://github.com/TIANLI0) |
-| <img src='https://flagcdn.com/tw.svg' width=20> &nbsp; **Chinese** (Traditional) - 繁體中文   | zh-TW | [C. Y. Tseng](https://github.com/shmps40802)                                          |
+| <img src='https://flagcdn.com/tw.svg' width=20> &nbsp; **Chinese** (Traditional) - 繁體中文   | zh-TW | [C. Y. Tseng](https://github.com/Eddie40802)                                          |
 | <img src='https://flagcdn.com/cz.svg' width=20> &nbsp; **Czech** - Čeština                   |  cz   | [Michal Šmahel](https://github.com/ceskyDJ/)                                          |
 | <img src='https://flagcdn.com/fr.svg' width=20> &nbsp; **French** - Français                 |  fr   | [422.io](https://github.com/iamwinner422)                                             |
+| <img src='https://flagcdn.com/de.svg' width=20> &nbsp; **German** - Deutsch                  |  de   | [Prem](https://github.com/prem-k-r/)(MTL)                                            |
 | <img src='https://flagcdn.com/in.svg' width=20> &nbsp; **Hindi** - हिंदी                       |  hi   | [XengShi](https://github.com/XengShi/), [Prem](https://github.com/prem-k-r/)          |
 | <img src='https://flagcdn.com/hu.svg' width=20> &nbsp; **Hungarian** - Magyar                |  hu   | [Zan1456](https://github.com/Zan1456/)                                                |
 | <img src='https://flagcdn.com/id.svg' width=20> &nbsp; **Indonesian** - Bahasa Indonesia     |  idn  | [Ayyas-RF](https://github.com/Ayyas-RF/)                                              |
@@ -194,6 +195,7 @@ For a step-by-step walkthrough, watch this [installation guide video](https://yo
 | <img src='https://flagcdn.com/kr.svg' width=20> &nbsp; **Korean** - 한국어                   |  ko   | [XengShi](https://github.com/XengShi/)                                                |
 | <img src='https://flagcdn.com/in.svg' width=20> &nbsp; **Marathi** - मराठी                   |  mr   | [Prem](https://github.com/prem-k-r/), [Pratik Lokhande](https://github.com/konprtk)   |
 | <img src='https://flagcdn.com/np.svg' width=20> &nbsp; **Nepali** - नेपाली                    |  np   | [Bikash Shresha](https://github.com/sthaB-kash/)                                      |
+| <img src='https://flagcdn.com/ir.svg' width=20> &nbsp; **Persian** - فارسی                    |  fa   | [AMIRHOSSEIN](https://github.com/AMIRHOSSEIN-AHMADI-IR)                               |
 | <img src='https://flagcdn.com/br.svg' width=20> &nbsp; **Portuguese** - Português            | pt-BR | [Maycon Vitor Correa](https://github.com/MestreWalla/)                                |
 | <img src='https://flagcdn.com/ru.svg' width=20> &nbsp; **Russian** - Русский                 |  ru   | [giwi](https://github.com/giwih/)                                                     |
 | <img src='https://flagcdn.com/si.svg' width=20> &nbsp; **Slovenian** - Slovenščina           | sl-SI | [Linux-Alex](https://github.com/Linux-Alex/)                                          |

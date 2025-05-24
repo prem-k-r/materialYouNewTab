@@ -117,6 +117,7 @@ const mr = {
     "gImagesEngine": "इमेज",
     "redditEngine": "रेडिट",
     "wikipediaEngine": "विकिपीडिया",
+    "quoraEngine": "क्वोरा",
 
     // AI Tools
     "ai_tools": "AI साधने",
@@ -124,9 +125,12 @@ const mr = {
     "gemini": "जेमिनी",
     "copilot": "कोपायलट",
     "claude": "क्लॉड",
+    "grok": "ग्रोक",
+    "qwen": "क्वेन",
     "perplexity": "पर्प्लेक्सिटी",
     "deepseek": "डीपसीक",
     "metaAI": "मेटा AI",
+    "resetAISettingsBtn": "रीसेट करा",
 
     // Wallpaper and settings
     "uploadWallpaperText": "वॉलपेपर सेट करा",

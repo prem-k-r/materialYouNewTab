@@ -15,8 +15,10 @@ const hi = {
     "adaptiveIconInfoText": "शॉर्टकट आइकन थीम रंग से मेल खाते हुए छोटे आकार में दिखेंगे",
     "bookmarksText": "बुकमार्क्स",
     "bookmarksInfo": "बुकमार्क्स साइडबार दिखाएँ",
-    "ai_tools_button": "AI-उपकरण",
+    "ai_tools_button": "AI उपकरण",
     "enable_ai_tools": "AI उपकरणों के शॉर्टकट्स प्रदर्शित करें",
+    "aiToolsSettingsText": "AI उपकरण सेटिंग्स",
+    "aiToolsSettingsInfo": "AI उपकरणों के शॉर्टकट्स प्रबंधित करें",
     "googleAppsMenuText": "गूगल ऐप्स",
     "googleAppsMenuInfo": "गूगल ऐप्स के शॉर्टकट्स प्रदर्शित करें",
     "googleAppsHover": "गूगल ऐप्स",
@@ -139,9 +141,13 @@ const hi = {
     "gemini": "जेमिनी",
     "copilot": "कोपायलट",
     "claude": "क्लॉड",
+    "grok": "ग्रोक",
+    "qwen": "क्वेन",
     "perplexity": "पर्प्लेक्सिटी",
     "deepseek": "डीपसीक",
     "metaAI": "मेटा AI",
+    "aiSettingsIntro": "चुनें की कौन से AI शॉर्टकट्स रखने हैं",
+    "resetAISettingsBtn": "रीसेट करें",
 
     // Theme - delete later
     "enableDarkMode": "डार्क मोड",
@@ -187,5 +193,5 @@ const hi = {
     "invalidBackup": "अमान्य बैकअप फ़ाइल चयनित है।",
     "deleteBookmark": "क्या आप \"{title}\" बुकमार्क डिलीट करना चाहते हैं?",
     "UnsupportedBrowser": "आपके ब्राउज़र में बुकमार्क समर्थित नहीं हैं।",
-    "minOneshortcut": "आपको कम से कम एक शॉर्टकट रखना होगा।"
+    //"minOneshortcut": "आपको कम से कम एक शॉर्टकट रखना होगा।"
 };
