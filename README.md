@@ -1,3 +1,6 @@
+> [!NOTE]
+> This extension is no longer maintained by XengShi
+
 <!-- Initialized : Sun 20 Aug 2023 03:41:08 PM IST -->
 <h1 align="center">
 
