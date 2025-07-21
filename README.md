@@ -1,7 +1,7 @@
 <!-- Initialized : Sun 20 Aug 2023 03:41:08 PM IST -->
 <h1 align="center">
 
-<a href="https://xengshi.github.io/materialYouNewTab/"><img src="https://github.com/user-attachments/assets/3dbf52ed-35bd-400b-9a3b-6d1befa3a575" width="50"></a>
+<a href="https://prem-k-r.github.io/materialYouNewTab/"><img src="https://github.com/user-attachments/assets/d16cd78f-781d-4b51-8051-1d1744f42b7e" width="50"></a>
 <br>
 Material You NewTab
 
@@ -14,11 +14,11 @@ Material You NewTab is a versatile browser extension that personalizes your New 
 
 <div align="center">
 
-![License](https://img.shields.io/github/license/XengShi/materialYouNewTab)
-![Last Commit](https://img.shields.io/github/last-commit/XengShi/materialYouNewTab)
-![GitHub contributors](https://img.shields.io/github/contributors/XengShi/materialYouNewTab)
-![GitHub stars](https://img.shields.io/github/stars/XengShi/materialYouNewTab)
-![GitHub forks](https://img.shields.io/github/forks/XengShi/materialYouNewTab)
+![License](https://img.shields.io/github/license/prem-k-r/materialYouNewTab)
+![Last Commit](https://img.shields.io/github/last-commit/prem-k-r/materialYouNewTab)
+![GitHub contributors](https://img.shields.io/github/contributors/prem-k-r/materialYouNewTab)
+![GitHub stars](https://img.shields.io/github/stars/prem-k-r/materialYouNewTab)
+![GitHub forks](https://img.shields.io/github/forks/prem-k-r/materialYouNewTab)
 
 </div>
 
@@ -38,7 +38,7 @@ Material You NewTab is a versatile browser extension that personalizes your New 
 
 <img src="https://i.postimg.cc/CF43Yzj1/material-you-new-Tab-poster.webp" alt="Screenshot 1" width="100%">
 
-#### 🔴 🟡 🟢 Test live: [https://xengshi.github.io/materialYouNewTab/](https://xengshi.github.io/materialYouNewTab/)
+#### 🔴 🟡 🟢 Test live: [https://prem-k-r.github.io/materialYouNewTab/](https://prem-k-r.github.io/materialYouNewTab/)
 
 ## ✨ Features
 
@@ -57,26 +57,20 @@ Material You NewTab is a versatile browser extension that personalizes your New 
       Use the following command to clone the repository:
 
        ```bash
-       git clone https://github.com/XengShi/materialYouNewTab.git
+       git clone https://github.com/prem-k-r/materialYouNewTab.git
        ```
 
     - Alternatively, download the latest version as a ZIP file by clicking below:
 
-      [![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue.svg)](https://github.com/XengShi/materialYouNewTab/archive/refs/heads/main.zip)
+      [![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue.svg)](https://github.com/prem-k-r/materialYouNewTab/archive/refs/heads/main.zip)
 
     - You can also download the ZIP file by clicking on the Code button. On the repository page, look for a green button labeled **Code**. Click on the **Code** button, and in the dropdown menu, select **Download ZIP**.
 
 2. **Stable Release** (v3.2)
 
 <p align="center">
-    <a href="https://github.com/XengShi/materialYouNewTab/releases/latest"><img src="https://github.com/user-attachments/assets/b421b796-599f-4ae8-aa56-3c9933e79e23" alt="Download from GitHub" height="48" /></a>
-    <a href="https://chromewebstore.google.com/detail/material-you-newtab/glloabhodjfmeoccmdngmhkpmdlakfbn">
-        <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/a65e60b5-8ddc-432d-80dc-9c2dd975c6a9" height="48">
-            <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/a67c750c-64a3-4448-a1ae-f747a096bd1d" height="48">
-            <img src="https://github.com/user-attachments/assets/a67c750c-64a3-4448-a1ae-f747a096bd1d" alt="Download from Chrome Web Store" height="48">
-        </picture>
-    </a>
+    <a href="https://github.com/prem-k-r/materialYouNewTab/releases/latest"><img src="https://github.com/user-attachments/assets/51048d6d-0b35-4f62-8351-4a3ea52d2213" alt="Download from GitHub" height="48" /></a>
+    <a href="https://chromewebstore.google.com/detail/material-you-newtab/glloabhodjfmeoccmdngmhkpmdlakfbn"><img src="https://github.com/user-attachments/assets/7a829ba4-dcd0-452b-922a-5efacbfda498" alt="Download from Chrome Web Store" height="48" /></a>
     <a href="https://addons.mozilla.org/en-US/firefox/addon/material-you-newtab/"><img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt="Download from Mozilla Add-ons" height="48" /></a>
 </p>
 
@@ -244,7 +238,7 @@ For a step-by-step walkthrough, watch this [installation guide video](https://yo
 | <img src='https://flagcdn.com/uz.svg' width=20> &nbsp; **Uzbek** - O'zbek                    |  uz   | [Firdavs](https://github.com/Firdavs9512/)                                            |
 | <img src='https://flagcdn.com/vn.svg' width=20> &nbsp; **Vietnamese** - Tiếng Việt           |  vn   | [Diep](https://github.com/diepdo1810/), [Tuan](https://github.com/Tuan1-2-3)          |
 
-Check the [Translation Status Page](https://xengshi.github.io/materialYouNewTab/tools/languagesAnalysis.html) for an overview of completed languages and missing strings analysis.
+Check the [Translation Status Page](https://prem-k-r.github.io/materialYouNewTab/tools/languagesAnalysis.html) for an overview of completed languages and missing strings analysis.
 
 <details>
 <summary><h2>📖 Usage</h2></summary>
@@ -325,27 +319,27 @@ Contributions are welcome! If you’d like to contribute:
 
 Here is the star history chart for the **Material You NewTab** repository. It shows the growth of stars over time, reflecting the increasing interest and support for the project.
 
-<a href="https://star-history.com/#XengShi/materialYouNewTab&Date">
+<a href="https://star-history.com/#prem-k-r/materialYouNewTab&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=XengShi/materialYouNewTab&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=XengShi/materialYouNewTab&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=XengShi/materialYouNewTab&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=prem-k-r/materialYouNewTab&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=prem-k-r/materialYouNewTab&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=prem-k-r/materialYouNewTab&type=Date" />
  </picture>
 </a>
 
 ## ❓ Issues and Support
 
-- If you encounter any issues or bugs, feel free to open an issue on [GitHub](https://github.com/XengShi/materialYouNewTab/issues).
+- If you encounter any issues or bugs, feel free to open an issue on [GitHub](https://github.com/prem-k-r/materialYouNewTab/issues).
 - For general questions or support, you can contact the repository maintainers through the **Telegram group**: [Join here](https://t.me/+i-ekvlM7yoU1Yjc1).
 
 ## 🛡 Privacy Policy
 
-Material You NewTab respects your privacy. For more details, read our [Privacy Policy](https://xengshi.github.io/materialYouNewTab/privacy-policy.html).
+Material You NewTab respects your privacy. For more details, read our [Privacy Policy](https://prem-k-r.github.io/materialYouNewTab/privacy-policy.html).
 
 ## 📜 License
 
 Copyright (C) 2023-2025 XengShi
 
-This project is licensed under the GNU General Public License v3.0 (GPL-3.0). See the [LICENSE](https://github.com/XengShi/materialYouNewTab/blob/main/LICENSE) file for details.
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0). See the [LICENSE](https://github.com/prem-k-r/materialYouNewTab/blob/main/LICENSE) file for details.
 
-[GitHub](https://github.com/XengShi) &nbsp; [Telegram](https://t.me/xengshi) &nbsp; [Email](mailto:xengshi@outlook.com)
+[GitHub](https://github.com/prem-k-r) &nbsp; [Telegram](https://t.me/xengshi) &nbsp; [Email](mailto:xengshi@outlook.com)

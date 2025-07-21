@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const MAX_SHORTCUTS = 50;
     const PLACEHOLDER = {
         name: "New shortcut",
-        url: "https://github.com/XengShi/materialYouNewTab",
+        url: "https://github.com/prem-k-r/materialYouNewTab",
         inputName: "Shortcut Name",
         inputUrl: "Shortcut URL"
     };
