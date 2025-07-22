@@ -1,5 +1,5 @@
 > [!NOTE]
-> This extension is no longer maintained by XengShi
+> This extension is no longer maintained by XengShi. [Info](https://github.com/prem-k-r/materialYouNewTab/discussions/28#discussioncomment-13837571)
 
 <!-- Initialized : Sun 20 Aug 2023 03:41:08 PM IST -->
 <h1 align="center">
