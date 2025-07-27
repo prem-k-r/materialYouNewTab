@@ -29,7 +29,7 @@ MYNT: Material You New Tab is a versatile browser extension that personalizes yo
   <a href="#-features">Features</a> •
   <a href="#-installation-guide">Installation Guide</a> •
   <a href="#download">Download</a> •
-  <a href="#-currently-supported-languages-29">Currently Supported Languages</a> •
+  <a href="#-currently-supported-languages-29">Currently Supported Languages</a>
 <br>
   <a href="#-contributing">Contributing</a> •
   <a href="#-star-history">Star History</a> •
