@@ -1,6 +1,6 @@
 {
 	"manifest_version": 3,
-	"name": "Material You NewTab",
+	"name": "MYNT: Material You New Tab",
 	"version": "3.2",
 	"description": "A Simple New Tab (browser's home page) inspired by Google's 'Material You' design.",
 	"permissions": ["search"],

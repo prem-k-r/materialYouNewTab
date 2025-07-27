@@ -3,12 +3,12 @@
 
 <a href="https://prem-k-r.github.io/materialYouNewTab/"><img src="https://github.com/user-attachments/assets/d16cd78f-781d-4b51-8051-1d1744f42b7e" width="50"></a>
 <br>
-Material You NewTab
+MYNT: Material You New Tab
 
 </h1>
 <div align="center">
 
-Material You NewTab is a versatile browser extension that personalizes your New Tab page with customizable themes, a welcoming message, and various handy tools, all while integrating seamlessly with your preferred search engine.
+MYNT: Material You New Tab is a versatile browser extension that personalizes your New Tab page with customizable themes, a welcoming message, and various handy tools, all while integrating seamlessly with your preferred search engine.
 
 </div>
 
@@ -27,7 +27,6 @@ Material You NewTab is a versatile browser extension that personalizes your New 
   <a href="#-installation-guide">Installation Guide</a> •
   <a href="#download">Download</a> •
   <a href="#-currently-supported-languages-29">Currently Supported Languages</a> •
-  <a href="#-usage">Usage</a>
 <br>
   <a href="#-contributing">Contributing</a> •
   <a href="#-star-history">Star History</a> •
@@ -42,10 +41,20 @@ Material You NewTab is a versatile browser extension that personalizes your New 
 
 ## ✨ Features
 
-- **Customizable Themes**: Choose from a selection of themes to match your style.
+- **Integrated Search**: Search directly from the New Tab using your preferred search engine — Google, DuckDuckGo, Bing, Brave Search, YouTube, Wikipedia, and more, with integrated voice typing.
+- **Customizable Themes**: Choose from a selection of themes or use the built-in color picker to match your style.
+- **Wallpaper**: Upload your own wallpapers or enable daily random images sourced from [Lorem Picsum](https://picsum.photos).
 - **Personalized Greeting**: Add a custom message or your name, so you're greeted each time you open a new tab.
-- **Integrated Search**: Search directly from the New Tab using your preferred search engine — Google, DuckDuckGo, Bing, Brave Search or YouTube.
-- **Browser Compatibility**: Supports major browsers like Chrome, Edge, Firefox, Brave, and Opera.
+- **Clock & Time Display**: Choose between a modern analog or digital clock.
+- **Live Weather Updates**: View real-time temperature, conditions, humidity, feels like, and max-min temperature values. Supports °C and °F with location customization.
+- **Quick Shortcuts**: Access common platforms (YouTube, Email, WhatsApp, etc.) or add your own shortcuts for instant navigation.
+- **AI Tools**: Open ChatGPT, Gemini, Copilot, Perplexity, Claude, DeepSeek, and more with one click.
+- **To-Do List**: Manage daily tasks, pin important ones, and enjoy automatic cleanup at the start of each day (pinned tasks reset to pending).
+- **Sidebar Bookmarks**: View, delete, and organize bookmarks in either list or grid layout.
+- **Google Apps**: Quickly launch Gmail, Drive, Docs, and other Google services.
+- **Backup & Reset**: Save or restore your setup anytime, or reset everything to default with one click.
+- **Language Support**: Use the extension in your preferred language for better accessibility.
+- **Browser Compatibility**: Supports major browsers like **Chrome**, **Edge**, **Firefox**, **Brave**, and **Opera**.
 
 ## 📥 Installation Guide
 
@@ -240,70 +249,6 @@ For a step-by-step walkthrough, watch this [installation guide video](https://yo
 
 Check the [Translation Status Page](https://prem-k-r.github.io/materialYouNewTab/tools/languagesAnalysis.html) for an overview of completed languages and missing strings analysis.
 
-<details>
-<summary><h2>📖 Usage</h2></summary>
-
-1. **Welcome Greeting**:
-   - The extension greets you with a personalized message, like "Hello! It’z RJ," and displays the current date. This feature can be customized in the settings to show your name or preferred text, making your browsing experience feel more personal.
-
-2. **Clock Widget**:
-   - Two clock options are available: a modern **analog clock** (default) and a **digital clock**.
-   - Users can switch between these clock types in the **menu settings**, providing flexibility to choose their preferred style for displaying the current time.
-
-3. **Weather Information**:
-   - Displays real-time weather information for your location, including temperature, weather condition (like "Sunny"), humidity, and "Feels like" temperature.
-   - Users can set their location (like "Dhaka") to get accurate weather data. A visual icon represents the weather, and temperature is displayed in degrees Celsius by default. However, it can be switched to Fahrenheit in the menu settings.
-
-4. **Search Bar**:
-   - The search bar allows you to enter queries directly from the new tab page. This makes it quick and easy to start searching without switching to a different page or window.
-   - Below the search bar, there are search engine options that allow you to choose your preferred search engine: Google, DuckDuckGo, Bing, Brave, or YouTube.
-   - A **voice typing feature** is integrated, enabling hands-free searches for added convenience.
-
-5. **Shortcuts**:
-   - At the bottom, there are quick-access icons for popular platforms, including YouTube, Email, Telegram, WhatsApp, Twitter, and more.
-   - Clicking on any of these icons will redirect you to the respective platform, allowing for easy access to your frequently used services.
-   - Users can also **add their own shortcuts** to the menu settings for more personalized quick access.
-
-6. **AI Tools Button**:
-   - On the bottom left, an "AI Tools" button is available, providing access to AI-powered tools directly from the New Tab page. Tools like ChatGPT, Gemini, Copilot, Perplexity, Deepseek, and Meta AI are integrated for quick, AI-driven assistance or tasks.
-
-7. **Wallpaper Management**:
-   - Users can upload their own wallpapers via the **new wallpaper management section** in the menu settings.
-   - The **Random Image feature** provides users with a new wallpaper every day, updating automatically at the start of each day. Images are sourced from [Lorem Picsum](https://picsum.photos).
-
-8. **Backup System**:
-   - The menu settings include a backup system that allows users to save and restore their customized settings.
-   - This feature is detailed with screenshots, showing how users can manage backups effectively.
-
-9. **Bookmarks**:
-   - The extension allows users to manage their bookmarks directly.
-   - Users can delete any bookmarks they no longer need, ensuring a clean and organized space.
-   - A **view as selector** lets users toggle between a **grid** and **list layout**, allowing them to display their bookmarks as they prefer.
-
-10. **To-Do List**:
-    - The extension features a **to-do list** to help users track and remember important tasks.
-    - Users can pin specific tasks using the **pin button**, ensuring those tasks stay at the top for easy access.
-    - At the start of each new day, all completed tasks are automatically deleted. However, pinned tasks are not deleted—their status simply resets to **pending**, allowing users to continue tracking them.
-
-11. **Reset Settings**:
-    - If users want to completely reset all data and settings, they can use the **Reset Settings** button available in the menu section.
-    - This feature clears all customizations and restores the extension to its default state.
-
-12. **Themes and Personalization**:
-    - Offers a dynamic theme system inspired by Material You, allowing users to customize colors, and backgrounds.
-    - Includes a **pick color button** in the theme selector menu, enabling users to choose their preferred color using **RGB**, **HSL**, or **hex color codes**.
-    - Personalization options are accessible in the settings, enabling users to tailor the look and feel to their liking.
-
-13. **Google Apps Integration**:
-    - The extension includes a dedicated section for quick access to Google apps such as Drive, Docs, Sheets, Gmail, and more.
-    - This ensures seamless productivity for users who rely on Google services.
-
-14. **Language Selector**:
-    - A language selector is included in the menu settings, enabling users to choose their preferred language for the extension interface.
-    - This feature supports multilingual customization, enhancing accessibility for users worldwide.
-
-</details>
-
 ## 🤝 Contributing
 
 Contributions are welcome! If you’d like to contribute:
@@ -317,7 +262,7 @@ Contributions are welcome! If you’d like to contribute:
 
 ## ⭐ Star History
 
-Here is the star history chart for the **Material You NewTab** repository. It shows the growth of stars over time, reflecting the increasing interest and support for the project.
+Here is the star history chart for the **MYNT: Material You New Tab** repository. It shows the growth of stars over time, reflecting the increasing interest and support for the project.
 
 <a href="https://star-history.com/#prem-k-r/materialYouNewTab&Date">
  <picture>
@@ -330,16 +275,14 @@ Here is the star history chart for the **Material You NewTab** repository. It sh
 ## ❓ Issues and Support
 
 - If you encounter any issues or bugs, feel free to open an issue on [GitHub](https://github.com/prem-k-r/materialYouNewTab/issues).
-- For general questions or support, you can contact the repository maintainers through the **Telegram group**: [Join here](https://t.me/+i-ekvlM7yoU1Yjc1).
+- For general questions or support, you can contact the repository maintainers through the **Telegram group**: [Join here](https://t.me/Material_You_NewTab).
 
 ## 🛡 Privacy Policy
 
-Material You NewTab respects your privacy. For more details, read our [Privacy Policy](https://prem-k-r.github.io/materialYouNewTab/privacy-policy.html).
+MYNT: Material You New Tab prioritizes your privacy and is focused solely on providing a better browsing experience. For more details, read our [Privacy Policy](https://prem-k-r.github.io/materialYouNewTab/privacy-policy.html).
 
 ## 📜 License
 
 Copyright (C) 2023-2025 XengShi
 
-This project is licensed under the GNU General Public License v3.0 (GPL-3.0). See the [LICENSE](https://github.com/prem-k-r/materialYouNewTab/blob/main/LICENSE) file for details.
-
-[GitHub](https://github.com/prem-k-r) &nbsp; [Telegram](https://t.me/xengshi) &nbsp; [Email](mailto:xengshi@outlook.com)
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0). This means you must **not** distribute this software, whether original or modified, to any platform **without** its source code or the reference to its original source code. See the [LICENSE](https://github.com/prem-k-r/materialYouNewTab/blob/main/LICENSE) file for details.
