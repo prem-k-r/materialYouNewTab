@@ -351,8 +351,11 @@ async function initializeClock() {
 
         // Update the hour, colon, and minute text elements
         document.getElementById("digihours").textContent = localizedHours;
-        document.getElementById("digicolon").textContent = ":"; // Static colon
+        document.getElementById("digicolon").textContent = ":";
         document.getElementById("digiminutes").textContent = localizedMinutes;
+
+        if (isFirefoxAll)
+            document.getElementById("digicolon").classList.add("no-blink");
 
         // Manually set the period for special languages if 12-hour format is enabled
         if (hourformat && (specialLanguages.includes(currentLanguage) || localizedLanguages.includes(currentLanguage))) {
