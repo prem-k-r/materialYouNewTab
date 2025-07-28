@@ -4,7 +4,7 @@
 <!-- Initialized : Sun 20 Aug 2023 03:41:08 PM IST -->
 <h1 align="center">
 
-<a href="https://prem-k-r.github.io/materialYouNewTab/"><img src="https://github.com/user-attachments/assets/d16cd78f-781d-4b51-8051-1d1744f42b7e" width="50"></a>
+<a href="https://prem-k-r.github.io/MaterialYouNewTab/"><img src="https://github.com/user-attachments/assets/d16cd78f-781d-4b51-8051-1d1744f42b7e" width="50"></a>
 <br>
 MYNT: Material You New Tab
 
@@ -40,7 +40,7 @@ MYNT: Material You New Tab is a versatile browser extension that personalizes yo
 
 <img src="https://i.postimg.cc/CF43Yzj1/material-you-new-Tab-poster.webp" alt="Screenshot 1" width="100%">
 
-#### 🔴 🟡 🟢 Test live: [https://prem-k-r.github.io/materialYouNewTab/](https://prem-k-r.github.io/materialYouNewTab/)
+#### 🔴 🟡 🟢 Test live: [https://prem-k-r.github.io/MaterialYouNewTab/](https://prem-k-r.github.io/MaterialYouNewTab/)
 
 ## ✨ Features
 
@@ -250,7 +250,7 @@ For a step-by-step walkthrough, watch this [installation guide video](https://yo
 | <img src='https://flagcdn.com/uz.svg' width=20> &nbsp; **Uzbek** - O'zbek                    |  uz   | [Firdavs](https://github.com/Firdavs9512/)                                            |
 | <img src='https://flagcdn.com/vn.svg' width=20> &nbsp; **Vietnamese** - Tiếng Việt           |  vn   | [Diep](https://github.com/diepdo1810/), [Tuan](https://github.com/Tuan1-2-3)          |
 
-Check the [Translation Status Page](https://prem-k-r.github.io/materialYouNewTab/tools/languagesAnalysis.html) for an overview of completed languages and missing strings analysis.
+Check the [Translation Status Page](https://prem-k-r.github.io/MaterialYouNewTab/tools/languagesAnalysis.html) for an overview of completed languages and missing strings analysis.
 
 ## 🤝 Contributing
 
@@ -282,7 +282,7 @@ Here is the star history chart for the **MYNT: Material You New Tab** repository
 
 ## 🛡 Privacy Policy
 
-MYNT: Material You New Tab prioritizes your privacy and is focused solely on providing a better browsing experience. For more details, read our [Privacy Policy](https://prem-k-r.github.io/materialYouNewTab/privacy-policy.html).
+MYNT: Material You New Tab prioritizes your privacy and is focused solely on providing a better browsing experience. For more details, read our [Privacy Policy](https://prem-k-r.github.io/MaterialYouNewTab/privacy-policy.html).
 
 ## 📜 License
 
