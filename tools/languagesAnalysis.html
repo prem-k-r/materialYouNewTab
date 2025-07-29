@@ -8,7 +8,7 @@
     <title>Language Key Analysis Tool | MYNT</title>
     <style>
         :root {
-            --md-sys-color-primary: #1565c0;
+            --md-sys-color-primary: #4382ec;
             --md-sys-color-on-primary: #ffffff;
             --md-sys-color-primary-container: #e3f2fd;
             --md-sys-color-secondary: #00bfa5;
@@ -27,7 +27,7 @@
         }
 
         body.dark-mode {
-            --md-sys-color-primary: #90caf9;
+            --md-sys-color-primary: #4a88f3;
             --md-sys-color-on-primary: #212121;
             --md-sys-color-primary-container: #263238;
             --md-sys-color-secondary: #80cbc4;
@@ -177,7 +177,7 @@
             font-size: 0.9rem;
         }
 
-        /* Estilos para o checkbox */
+        /* Checkbox styles */
         input[type="checkbox"] {
             appearance: none;
             -webkit-appearance: none;
@@ -221,7 +221,7 @@
             cursor: pointer;
             user-select: none;
             justify-content: space-between;
-            /* Alinha o texto à esquerda e o contador à direita */
+            /* Aligns text left and counter right */
         }
 
         .language-group h3::before {
@@ -304,7 +304,7 @@
             border-radius: 8px;
             display: block;
             animation: fadeIn 0.3s ease-in-out;
-            /* Adicionando animação */
+            /* Adding fade-in animation */
         }
 
         #extra-keys-message {
@@ -350,7 +350,7 @@
             border-radius: 3px;
         }
     </style>
-    <!-- SCRIPTS -->
+    <!-- Language files for analysis -->
     <script src="../locales/pt.js"></script>
     <script src="../locales/en.js"></script>
     <script src="../locales/es.js"></script>
@@ -382,22 +382,23 @@
     <script src="../locales/th.js"></script>
 </head>
 
-<body class="light-mode">
-    <div class="material-banner">
-        <span>🌟</span>
-        <strong>Language Key Analysis Tool</strong>
-        <nav>
-            <button id="theme-toggle" title="Toggle dark mode">
-                <span class="toggle-icon">
-                    <svg id="theme-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="6" fill="#fff"/><path d="M12 2v2M12 20v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M2 12h2M20 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" stroke="#1565c0" stroke-width="2"/></svg>
-                </span>
-            </button>
-            <button class="github-btn" id="github-btn" title="Go to GitHub Repository">
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.52 2.87 8.36 6.84 9.71.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.36-3.37-1.36-.45-1.17-1.1-1.48-1.1-1.48-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05a9.38 9.38 0 0 1 2.5-.34c.85 0 1.71.12 2.5.34 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.07.36.32.68.94.68 1.89 0 1.37-.01 2.47-.01 2.81 0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12.26C22 6.58 17.52 2 12 2z" fill="#1565c0"/></svg>
-                GitHub
-            </button>
-        </nav>
+<body class="light-mode" style="display:flex;flex-direction:column;min-height:100vh;">
+<div class="material-banner" style="position:sticky;top:0;left:0;right:0;z-index:10;display:flex;align-items:center;">
+    <a href="https://github.com/prem-k-r/MaterialYouNewTab" target="_blank" style="display:flex;align-items:center;gap:0.4rem;text-decoration:none;color:var(--md-sys-color-on-primary);font-weight:bold;font-size:1.05rem;">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.52 2.87 8.36 6.84 9.71.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.36-3.37-1.36-.45-1.17-1.1-1.48-1.1-1.48-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.71 0 0 .84-.28 2.75 1.05a9.38 9.38 0 0 1 2.5-.34c.85 0 1.71.12 2.5.34 1.91-1.33 2.75-1.05 2.75-1.05.55 1.41.2 2.45.1 2.71.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.07.36.32.68.94.68 1.89 0 1.37-.01 2.47-.01 2.81 0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12.26C22 6.58 17.52 2 12 2z" fill="#fff"/></svg>
+        <span>Material You New Tab <span style="opacity:0.7;font-size:0.92rem;">(MYNT)</span></span>
+    </a>
+    <div style="flex:1;display:flex;justify-content:center;align-items:center;">
+        <strong style="font-size:1.18rem;letter-spacing:0.03em;">Language Key Analysis Tool</strong>
     </div>
+    <nav style="display:flex;align-items:center;">
+        <button id="theme-toggle" title="Toggle dark mode">
+            <span class="toggle-icon">
+                <svg id="theme-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="6" fill="#fff"/><path d="M12 2v2M12 20v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M2 12h2M20 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" stroke="#1565c0" stroke-width="2"/></svg>
+            </span>
+        </button>
+    </nav>
+</div>
     <main>
         <div id="complete"></div>
         <h2>Language Key Analysis Results</h2>
@@ -423,14 +424,15 @@
     </main>
     <footer style="background:var(--md-sys-color-primary-container);color:var(--md-sys-color-on-background);text-align:center;padding:1.2rem 0;margin-top:2rem;font-size:0.95rem;border-top:1px solid var(--md-sys-color-outline-variant);">
         <div>
-            <strong>MYNT: Material You New Tab</strong> &mdash; Language Analysis Tool<br>
-            Operated by MYNT Admins &amp; Maintainers.<br>
-            <a href="https://github.com/materialYouNewTab/materialYouNewTab" target="_blank" style="color:var(--md-sys-color-primary);text-decoration:underline;font-weight:bold;">GitHub Repository</a>
+            <strong>MYNT: Material You New Tab</strong> – Language Analysis Tool<br>
+            Developed & maintained by the MYNT team.<br>
         </div>
     </footer>
+
     <script>
-        // Language objects loaded from external scripts
+        // --- Language objects loaded from external scripts ---
         const languages = { ar_SA, az, bn, cs, de, el, en, es, fa, fr, hi, hu, idn, it, ja, ko, mr, np, pt, ru, sl, ta, th, tr, ur, uz, vi, zh, zh_TW };
+        // --- DOM elements ---
         const resultsDiv = document.getElementById("results");
         const completeDiv = document.getElementById("complete");
         const themeToggle = document.getElementById("theme-toggle");
@@ -438,7 +440,8 @@
         const extraKeysMessage = document.getElementById("extra-keys-message");
         const githubBtn = document.getElementById("github-btn");
 
-        // Compare language keys
+        // --- Compare language keys ---
+        // Returns an object with missing/extra keys and completeness for each language
         function compareLanguageKeys(referenceLang, languages) {
             const analysis = {};
             for (const lang in languages) {
@@ -457,11 +460,12 @@
             return analysis;
         }
 
-        // Render results
+        // --- Render results to the page ---
         const languageAnalysis = compareLanguageKeys("en", languages);
         const ulResults = document.createElement("ul");
         const ulComplete = document.createElement("ul");
 
+        // Add complete languages to the list
         for (const lang in languageAnalysis) {
             if (languageAnalysis[lang].isComplete) {
                 const li = document.createElement("li");
@@ -470,6 +474,7 @@
             }
         }
 
+        // Add missing/extra keys for each language
         const languageGroups = {};
         let hasMissingKeys = false;
         let hasExtraKeys = false;
@@ -489,6 +494,7 @@
                 languageGroups[lang].appendChild(h3);
                 languageGroups[lang].appendChild(document.createElement("ul"));
                 const ul = languageGroups[lang].querySelector("ul");
+                // List missing keys with checkboxes
                 missingKeys.forEach((key) => {
                     const li = document.createElement("li");
                     li.classList.add("missing");
@@ -498,6 +504,7 @@
                     `;
                     ul.appendChild(li);
                 });
+                // List extra keys
                 extraKeys.forEach((key) => {
                     const li = document.createElement("li");
                     li.classList.add("extra");
@@ -509,10 +516,12 @@
             }
         }
 
+        // Add language groups to results
         for (const langGroup in languageGroups) {
             ulResults.appendChild(languageGroups[langGroup]);
         }
 
+        // Show complete languages
         if (Object.keys(languageAnalysis).filter((lang) => languageAnalysis[lang].isComplete).length > 0) {
             completeDiv.appendChild(ulComplete);
         } else {
@@ -522,6 +531,7 @@
             completeDiv.appendChild(ulComplete);
         }
 
+        // Show missing/extra key messages
         if (hasMissingKeys) {
             incompleteMessage.style.display = "block";
         }
@@ -532,7 +542,7 @@
             resultsDiv.appendChild(ulResults);
         }
 
-        // Checkbox strike-through
+        // --- Checkbox strike-through for missing keys ---
         resultsDiv.addEventListener("change", (event) => {
             if (event.target.type === "checkbox") {
                 const checkbox = event.target;
@@ -545,7 +555,7 @@
             }
         });
 
-        // Expand/collapse language groups
+        // --- Expand/collapse language groups ---
         resultsDiv.addEventListener("click", (event) => {
             if (event.target.closest(".language-group h3")) {
                 const group = event.target.closest(".language-group");
@@ -553,7 +563,7 @@
             }
         });
 
-        // Theme toggle logic
+        // --- Theme toggle logic ---
         themeToggle.addEventListener("click", () => {
             document.body.classList.toggle("dark-mode");
             // Change icon for dark/light mode
@@ -563,11 +573,6 @@
             } else {
                 themeIcon.innerHTML = '<circle cx="12" cy="12" r="6" fill="#fff"/><path d="M12 2v2M12 20v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M2 12h2M20 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" stroke="#1565c0" stroke-width="2"/>';
             }
-        });
-
-        // GitHub button logic
-        githubBtn.addEventListener("click", () => {
-            window.open("https://github.com/materialYouNewTab/materialYouNewTab", "_blank");
         });
     </script>
 </body>
