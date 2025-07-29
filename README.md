@@ -1,24 +1,27 @@
+> [!NOTE]
+> This extension is no longer maintained by XengShi. [Info](https://github.com/prem-k-r/materialYouNewTab/discussions/28#discussioncomment-13837571)
+
 <!-- Initialized : Sun 20 Aug 2023 03:41:08 PM IST -->
 <h1 align="center">
 
-<a href="https://xengshi.github.io/materialYouNewTab/"><img src="https://github.com/user-attachments/assets/3dbf52ed-35bd-400b-9a3b-6d1befa3a575" width="50"></a>
+<a href="https://prem-k-r.github.io/MaterialYouNewTab/"><img src="https://github.com/user-attachments/assets/d16cd78f-781d-4b51-8051-1d1744f42b7e" width="50"></a>
 <br>
-Material You NewTab
+MYNT: Material You New Tab
 
 </h1>
 <div align="center">
 
-Material You NewTab is a versatile browser extension that personalizes your New Tab page with customizable themes, a welcoming message, and various handy tools, all while integrating seamlessly with your preferred search engine.
+MYNT: Material You New Tab is a versatile browser extension that personalizes your New Tab page with customizable themes, a welcoming message, and various handy tools, all while integrating seamlessly with your preferred search engine.
 
 </div>
 
 <div align="center">
 
-![License](https://img.shields.io/github/license/XengShi/materialYouNewTab)
-![Last Commit](https://img.shields.io/github/last-commit/XengShi/materialYouNewTab)
-![GitHub contributors](https://img.shields.io/github/contributors/XengShi/materialYouNewTab)
-![GitHub stars](https://img.shields.io/github/stars/XengShi/materialYouNewTab)
-![GitHub forks](https://img.shields.io/github/forks/XengShi/materialYouNewTab)
+![License](https://img.shields.io/github/license/prem-k-r/materialYouNewTab)
+![Last Commit](https://img.shields.io/github/last-commit/prem-k-r/materialYouNewTab)
+![GitHub contributors](https://img.shields.io/github/contributors/prem-k-r/materialYouNewTab)
+![GitHub stars](https://img.shields.io/github/stars/prem-k-r/materialYouNewTab)
+![GitHub forks](https://img.shields.io/github/forks/prem-k-r/materialYouNewTab)
 
 </div>
 
@@ -26,8 +29,7 @@ Material You NewTab is a versatile browser extension that personalizes your New 
   <a href="#-features">Features</a> •
   <a href="#-installation-guide">Installation Guide</a> •
   <a href="#download">Download</a> •
-  <a href="#-currently-supported-languages-29">Currently Supported Languages</a> •
-  <a href="#-usage">Usage</a>
+  <a href="#-currently-supported-languages-29">Currently Supported Languages</a>
 <br>
   <a href="#-contributing">Contributing</a> •
   <a href="#-star-history">Star History</a> •
@@ -38,14 +40,24 @@ Material You NewTab is a versatile browser extension that personalizes your New 
 
 <img src="https://i.postimg.cc/CF43Yzj1/material-you-new-Tab-poster.webp" alt="Screenshot 1" width="100%">
 
-#### 🔴 🟡 🟢 Test live: [https://xengshi.github.io/materialYouNewTab/](https://xengshi.github.io/materialYouNewTab/)
+#### 🔴 🟡 🟢 Test live: [https://prem-k-r.github.io/MaterialYouNewTab/](https://prem-k-r.github.io/MaterialYouNewTab/)
 
 ## ✨ Features
 
-- **Customizable Themes**: Choose from a selection of themes to match your style.
+- **Integrated Search**: Search directly from the New Tab using your preferred search engine — Google, DuckDuckGo, Bing, Brave Search, YouTube, Wikipedia, and more, with integrated voice typing.
+- **Customizable Themes**: Choose from a selection of themes or use the built-in color picker to match your style.
+- **Wallpaper**: Upload your own wallpapers or enable daily random images sourced from [Lorem Picsum](https://picsum.photos).
 - **Personalized Greeting**: Add a custom message or your name, so you're greeted each time you open a new tab.
-- **Integrated Search**: Search directly from the New Tab using your preferred search engine — Google, DuckDuckGo, Bing, Brave Search or YouTube.
-- **Browser Compatibility**: Supports major browsers like Chrome, Edge, Firefox, Brave, and Opera.
+- **Clock & Time Display**: Choose between a modern analog or digital clock.
+- **Live Weather Updates**: View real-time temperature, conditions, humidity, feels like, and max-min temperature values. Supports °C and °F with location customization.
+- **Quick Shortcuts**: Access common platforms (YouTube, Email, WhatsApp, etc.) or add your own shortcuts for instant navigation.
+- **AI Tools**: Open ChatGPT, Gemini, Copilot, Perplexity, Claude, DeepSeek, and more with one click.
+- **To-Do List**: Manage daily tasks, pin important ones, and enjoy automatic cleanup at the start of each day (pinned tasks reset to pending).
+- **Sidebar Bookmarks**: View, delete, and organize bookmarks in either list or grid layout.
+- **Google Apps**: Quickly launch Gmail, Drive, Docs, and other Google services.
+- **Backup & Reset**: Save or restore your setup anytime, or reset everything to default with one click.
+- **Language Support**: Use the extension in your preferred language for better accessibility.
+- **Browser Compatibility**: Supports major browsers like **Chrome**, **Edge**, **Firefox**, **Brave**, and **Opera**.
 
 ## 📥 Installation Guide
 
@@ -57,26 +69,20 @@ Material You NewTab is a versatile browser extension that personalizes your New 
       Use the following command to clone the repository:
 
        ```bash
-       git clone https://github.com/XengShi/materialYouNewTab.git
+       git clone https://github.com/prem-k-r/materialYouNewTab.git
        ```
 
     - Alternatively, download the latest version as a ZIP file by clicking below:
 
-      [![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue.svg)](https://github.com/XengShi/materialYouNewTab/archive/refs/heads/main.zip)
+      [![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue.svg)](https://github.com/prem-k-r/materialYouNewTab/archive/refs/heads/main.zip)
 
     - You can also download the ZIP file by clicking on the Code button. On the repository page, look for a green button labeled **Code**. Click on the **Code** button, and in the dropdown menu, select **Download ZIP**.
 
 2. **Stable Release** (v3.2)
 
 <p align="center">
-    <a href="https://github.com/XengShi/materialYouNewTab/releases/latest"><img src="https://github.com/user-attachments/assets/b421b796-599f-4ae8-aa56-3c9933e79e23" alt="Download from GitHub" height="48" /></a>
-    <a href="https://chromewebstore.google.com/detail/material-you-newtab/glloabhodjfmeoccmdngmhkpmdlakfbn">
-        <picture>
-            <source media="(prefers-color-scheme: dark)" srcset="https://github.com/user-attachments/assets/a65e60b5-8ddc-432d-80dc-9c2dd975c6a9" height="48">
-            <source media="(prefers-color-scheme: light)" srcset="https://github.com/user-attachments/assets/a67c750c-64a3-4448-a1ae-f747a096bd1d" height="48">
-            <img src="https://github.com/user-attachments/assets/a67c750c-64a3-4448-a1ae-f747a096bd1d" alt="Download from Chrome Web Store" height="48">
-        </picture>
-    </a>
+    <a href="https://github.com/prem-k-r/materialYouNewTab/releases/latest"><img src="https://github.com/user-attachments/assets/51048d6d-0b35-4f62-8351-4a3ea52d2213" alt="Download from GitHub" height="48" /></a>
+    <a href="https://chromewebstore.google.com/detail/material-you-newtab/glloabhodjfmeoccmdngmhkpmdlakfbn"><img src="https://github.com/user-attachments/assets/7a829ba4-dcd0-452b-922a-5efacbfda498" alt="Download from Chrome Web Store" height="48" /></a>
     <a href="https://addons.mozilla.org/en-US/firefox/addon/material-you-newtab/"><img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt="Download from Mozilla Add-ons" height="48" /></a>
 </p>
 
@@ -244,71 +250,7 @@ For a step-by-step walkthrough, watch this [installation guide video](https://yo
 | <img src='https://flagcdn.com/uz.svg' width=20> &nbsp; **Uzbek** - O'zbek                    |  uz   | [Firdavs](https://github.com/Firdavs9512/)                                            |
 | <img src='https://flagcdn.com/vn.svg' width=20> &nbsp; **Vietnamese** - Tiếng Việt           |  vn   | [Diep](https://github.com/diepdo1810/), [Tuan](https://github.com/Tuan1-2-3)          |
 
-Check the [Translation Status Page](https://xengshi.github.io/materialYouNewTab/tools/languagesAnalysis.html) for an overview of completed languages and missing strings analysis.
-
-<details>
-<summary><h2>📖 Usage</h2></summary>
-
-1. **Welcome Greeting**:
-   - The extension greets you with a personalized message, like "Hello! It’z RJ," and displays the current date. This feature can be customized in the settings to show your name or preferred text, making your browsing experience feel more personal.
-
-2. **Clock Widget**:
-   - Two clock options are available: a modern **analog clock** (default) and a **digital clock**.
-   - Users can switch between these clock types in the **menu settings**, providing flexibility to choose their preferred style for displaying the current time.
-
-3. **Weather Information**:
-   - Displays real-time weather information for your location, including temperature, weather condition (like "Sunny"), humidity, and "Feels like" temperature.
-   - Users can set their location (like "Dhaka") to get accurate weather data. A visual icon represents the weather, and temperature is displayed in degrees Celsius by default. However, it can be switched to Fahrenheit in the menu settings.
-
-4. **Search Bar**:
-   - The search bar allows you to enter queries directly from the new tab page. This makes it quick and easy to start searching without switching to a different page or window.
-   - Below the search bar, there are search engine options that allow you to choose your preferred search engine: Google, DuckDuckGo, Bing, Brave, or YouTube.
-   - A **voice typing feature** is integrated, enabling hands-free searches for added convenience.
-
-5. **Shortcuts**:
-   - At the bottom, there are quick-access icons for popular platforms, including YouTube, Email, Telegram, WhatsApp, Twitter, and more.
-   - Clicking on any of these icons will redirect you to the respective platform, allowing for easy access to your frequently used services.
-   - Users can also **add their own shortcuts** to the menu settings for more personalized quick access.
-
-6. **AI Tools Button**:
-   - On the bottom left, an "AI Tools" button is available, providing access to AI-powered tools directly from the New Tab page. Tools like ChatGPT, Gemini, Copilot, Perplexity, Deepseek, and Meta AI are integrated for quick, AI-driven assistance or tasks.
-
-7. **Wallpaper Management**:
-   - Users can upload their own wallpapers via the **new wallpaper management section** in the menu settings.
-   - The **Random Image feature** provides users with a new wallpaper every day, updating automatically at the start of each day. Images are sourced from [Lorem Picsum](https://picsum.photos).
-
-8. **Backup System**:
-   - The menu settings include a backup system that allows users to save and restore their customized settings.
-   - This feature is detailed with screenshots, showing how users can manage backups effectively.
-
-9. **Bookmarks**:
-   - The extension allows users to manage their bookmarks directly.
-   - Users can delete any bookmarks they no longer need, ensuring a clean and organized space.
-   - A **view as selector** lets users toggle between a **grid** and **list layout**, allowing them to display their bookmarks as they prefer.
-
-10. **To-Do List**:
-    - The extension features a **to-do list** to help users track and remember important tasks.
-    - Users can pin specific tasks using the **pin button**, ensuring those tasks stay at the top for easy access.
-    - At the start of each new day, all completed tasks are automatically deleted. However, pinned tasks are not deleted—their status simply resets to **pending**, allowing users to continue tracking them.
-
-11. **Reset Settings**:
-    - If users want to completely reset all data and settings, they can use the **Reset Settings** button available in the menu section.
-    - This feature clears all customizations and restores the extension to its default state.
-
-12. **Themes and Personalization**:
-    - Offers a dynamic theme system inspired by Material You, allowing users to customize colors, and backgrounds.
-    - Includes a **pick color button** in the theme selector menu, enabling users to choose their preferred color using **RGB**, **HSL**, or **hex color codes**.
-    - Personalization options are accessible in the settings, enabling users to tailor the look and feel to their liking.
-
-13. **Google Apps Integration**:
-    - The extension includes a dedicated section for quick access to Google apps such as Drive, Docs, Sheets, Gmail, and more.
-    - This ensures seamless productivity for users who rely on Google services.
-
-14. **Language Selector**:
-    - A language selector is included in the menu settings, enabling users to choose their preferred language for the extension interface.
-    - This feature supports multilingual customization, enhancing accessibility for users worldwide.
-
-</details>
+Check the [Translation Status Page](https://prem-k-r.github.io/MaterialYouNewTab/tools/languagesAnalysis.html) for an overview of completed languages and missing strings analysis.
 
 ## 🤝 Contributing
 
@@ -323,29 +265,27 @@ Contributions are welcome! If you’d like to contribute:
 
 ## ⭐ Star History
 
-Here is the star history chart for the **Material You NewTab** repository. It shows the growth of stars over time, reflecting the increasing interest and support for the project.
+Here is the star history chart for the **MYNT: Material You New Tab** repository. It shows the growth of stars over time, reflecting the increasing interest and support for the project.
 
-<a href="https://star-history.com/#XengShi/materialYouNewTab&Date">
+<a href="https://star-history.com/#prem-k-r/materialYouNewTab&Date">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=XengShi/materialYouNewTab&type=Date&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=XengShi/materialYouNewTab&type=Date" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=XengShi/materialYouNewTab&type=Date" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=prem-k-r/materialYouNewTab&type=Date&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=prem-k-r/materialYouNewTab&type=Date" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=prem-k-r/materialYouNewTab&type=Date" />
  </picture>
 </a>
 
 ## ❓ Issues and Support
 
-- If you encounter any issues or bugs, feel free to open an issue on [GitHub](https://github.com/XengShi/materialYouNewTab/issues).
-- For general questions or support, you can contact the repository maintainers through the **Telegram group**: [Join here](https://t.me/+i-ekvlM7yoU1Yjc1).
+- If you encounter any issues or bugs, feel free to open an issue on [GitHub](https://github.com/prem-k-r/materialYouNewTab/issues).
+- For general questions or support, you can contact the repository maintainers through the **Telegram group**: [Join here](https://t.me/Material_You_NewTab).
 
 ## 🛡 Privacy Policy
 
-Material You NewTab respects your privacy. For more details, read our [Privacy Policy](https://xengshi.github.io/materialYouNewTab/privacy-policy.html).
+MYNT: Material You New Tab prioritizes your privacy and is focused solely on providing a better browsing experience. For more details, read our [Privacy Policy](https://prem-k-r.github.io/MaterialYouNewTab/privacy-policy.html).
 
 ## 📜 License
 
 Copyright (C) 2023-2025 XengShi
 
-This project is licensed under the GNU General Public License v3.0 (GPL-3.0). See the [LICENSE](https://github.com/XengShi/materialYouNewTab/blob/main/LICENSE) file for details.
-
-[GitHub](https://github.com/XengShi) &nbsp; [Telegram](https://t.me/xengshi) &nbsp; [Email](mailto:xengshi@outlook.com)
+This project is licensed under the GNU General Public License v3.0 (GPL-3.0). This means you must **not** distribute this software, whether original or modified, to any platform **without** its source code or the reference to its original source code. See the [LICENSE](https://github.com/prem-k-r/materialYouNewTab/blob/main/LICENSE) file for details.

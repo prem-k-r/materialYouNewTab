@@ -51,6 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // ---------------------------- Search Suggestions ----------------------------
 
+let lastInteractionBy = null;
 const resultBox = document.getElementById("resultBox");
 
 // Show the result box
@@ -103,6 +104,7 @@ document.getElementById("searchQ").addEventListener("input", async function () {
                         resultItem.classList.add("resultItem");
                         resultItem.textContent = suggestion;
                         resultItem.setAttribute("data-index", index);
+
                         resultItem.onclick = () => {
                             if (selectedOption === "engine0") {
                                 try {
@@ -120,6 +122,17 @@ document.getElementById("searchQ").addEventListener("input", async function () {
                                 window.location.href = resultlink;
                             }
                         };
+
+                        resultItem.addEventListener("mouseenter", () => {
+                            // Remove existing highlight
+                            const currentlyActive = resultBox.querySelector(".active");
+                            if (currentlyActive) currentlyActive.classList.remove("active");
+
+                            // Mark this as active
+                            resultItem.classList.add("active");
+                            lastInteractionBy = "mouse";
+                        });
+
                         resultBox.appendChild(resultItem);
                     });
 
@@ -140,25 +153,9 @@ document.getElementById("searchQ").addEventListener("input", async function () {
     }
 });
 
-let isMouseOverResultBox = false;
-// Track mouse entry and exit within the resultBox
-resultBox.addEventListener("mouseenter", () => {
-    isMouseOverResultBox = true;
-    // Remove keyboard highlight
-    const activeItem = resultBox.querySelector(".active");
-    if (activeItem) {
-        activeItem.classList.remove("active");
-    }
-});
-
-resultBox.addEventListener("mouseleave", () => {
-    isMouseOverResultBox = false;
-});
-
 document.getElementById("searchQ").addEventListener("keydown", function (e) {
-    if (isMouseOverResultBox) {
-        return; // Ignore keyboard events if the mouse is in the resultBox
-    }
+
+    lastInteractionBy = "keyboard";
     const activeItem = resultBox.querySelector(".active");
     let currentIndex = activeItem ? parseInt(activeItem.getAttribute("data-index")) : -1;
 
@@ -174,6 +171,7 @@ document.getElementById("searchQ").addEventListener("keydown", function (e) {
             // Ensure the active item is visible within the result box
             const activeElement = resultBox.children[currentIndex];
             activeElement.scrollIntoView({ behavior: "smooth", block: "nearest" });
+
         } else if (e.key === "ArrowUp") {
             e.preventDefault();
             if (activeItem) {
@@ -185,9 +183,19 @@ document.getElementById("searchQ").addEventListener("keydown", function (e) {
             // Ensure the active item is visible within the result box
             const activeElement = resultBox.children[currentIndex];
             activeElement.scrollIntoView({ behavior: "smooth", block: "nearest" });
-        } else if (e.key === "Enter" && activeItem) {
+
+        } else if ((e.key === "ArrowRight" || e.key === "Tab") && activeItem) {
             e.preventDefault();
-            activeItem.click();
+            const suggestionText = activeItem.textContent;
+            this.value = suggestionText;
+
+        } else if (e.key === "Enter") {
+            const selected = resultBox.querySelector(".active");
+            if (selected) {
+                e.preventDefault();
+                lastInteractionBy = "keyboard";
+                selected.click();
+            }
         }
     }
 });

@@ -7,8 +7,8 @@
  */
 
 // Multilingual quotes API
-const metadataUrl = "https://xengshi.github.io/multilingual-quotes-api/minified/metadata.json";
-const baseQuoteUrl = "https://xengshi.github.io/multilingual-quotes-api/minified/";
+const metadataUrl = "https://prem-k-r.github.io/multilingual-quotes-api/minified/metadata.json";
+const baseQuoteUrl = "https://prem-k-r.github.io/multilingual-quotes-api/minified/";
 
 const quotesContainer = document.querySelector(".quotesContainer");
 const authorName = document.querySelector(".authorName span");

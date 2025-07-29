@@ -13,9 +13,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `Localized` - for updates related to translations, localization, or internationalization.
 - `Other` - for technical updates.
 
-## [Unreleased](https://github.com/XengShi/materialYouNewTab/compare/v3...main)
+<!-- ## [Unreleased](https://github.com/XengShi/materialYouNewTab/compare/v3.2...main) -->
 
-<!-- ## [v3.2](https://github.com/XengShi/materialYouNewTab/compare/v3...v3.2) - July xy, 2025 -->
+## [v3.2](https://github.com/XengShi/materialYouNewTab/compare/v3...v3.2) - July 20, 2025
 
 ### Added
 
@@ -45,6 +45,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added Multilingual Support for Motivational Quotes ([@prem-k-r](https://github.com/prem-k-r)) ([#683](https://github.com/XengShi/materialYouNewTab/pull/683))
 - Added toggle to hide or show location in the location tile ([@prem-k-r](https://github.com/prem-k-r)) ([#685](https://github.com/XengShi/materialYouNewTab/pull/685))
 - Added drag and drop functionality for reordering shortcuts ([@prem-k-r](https://github.com/prem-k-r)) ([#695](https://github.com/XengShi/materialYouNewTab/pull/695))
+- Added edit functionality for todo list ([@GauravKukreti](https://github.com/GauravKukreti)) ([#719](https://github.com/XengShi/materialYouNewTab/pull/719))
 
 ### Changed
 
@@ -77,6 +78,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - New shortcut now auto-scrolls into view and focuses on URL input; and smooth scrolling for all scrollable areas ([@prem-k-r](https://github.com/prem-k-r)) ([#638](https://github.com/XengShi/materialYouNewTab/pull/638))
 - Added confirmation alert before resetting shortcuts ([@prem-k-r](https://github.com/prem-k-r)) ([#657](https://github.com/XengShi/materialYouNewTab/pull/657))
 - Use browser-cached bookmark favicons ([@prem-k-r](https://github.com/prem-k-r)) ([#710](https://github.com/XengShi/materialYouNewTab/pull/710))
+- Improved search suggestions keyboard and mouse navigation ([@prem-k-r](https://github.com/prem-k-r)) ([#723](https://github.com/XengShi/materialYouNewTab/pull/723))
 
 ### Removed
 

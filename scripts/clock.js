@@ -351,8 +351,11 @@ async function initializeClock() {
 
         // Update the hour, colon, and minute text elements
         document.getElementById("digihours").textContent = localizedHours;
-        document.getElementById("digicolon").textContent = ":"; // Static colon
+        document.getElementById("digicolon").textContent = ":";
         document.getElementById("digiminutes").textContent = localizedMinutes;
+
+        if (isFirefoxAll)
+            document.getElementById("digicolon").classList.add("no-blink");
 
         // Manually set the period for special languages if 12-hour format is enabled
         if (hourformat && (specialLanguages.includes(currentLanguage) || localizedLanguages.includes(currentLanguage))) {
@@ -481,6 +484,14 @@ async function initializeClock() {
     }
 
     // ----------------------- End of clock display -------------------------
+    function resetDateDisplay() {
+        const dateElement = document.getElementById("date");
+        dateElement.style.display = "block";
+        dateElement.innerText = "";
+        lastGreetingString = null;
+        lastDateString = null;
+        updateDate();
+    }
 
     // Save and load toggle state
     document.addEventListener("DOMContentLoaded", function () {
@@ -521,6 +532,7 @@ async function initializeClock() {
                 startAnalogClock();
                 updateanalogclock();
                 displayClock();
+                resetDateDisplay();
                 saveActiveStatus("timeformatField", "inactive");
                 saveActiveStatus("greetingField", "inactive");
             }
