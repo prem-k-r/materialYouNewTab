@@ -153,50 +153,76 @@ document.getElementById("searchQ").addEventListener("input", async function () {
     }
 });
 
-document.getElementById("searchQ").addEventListener("keydown", function (e) {
+const searchInputElem = document.getElementById("searchQ");
+let lastTypedValue = "";
+let lastSuggestionValue = "";
+let suggestionActiveIndex = -1;
 
+searchInputElem.addEventListener("keydown", function (e) {
     lastInteractionBy = "keyboard";
-    const activeItem = resultBox.querySelector(".active");
-    let currentIndex = activeItem ? parseInt(activeItem.getAttribute("data-index")) : -1;
+    const suggestions = Array.from(resultBox.children);
+    const hasSuggestions = suggestions.length > 0;
+    const isArrowDown = e.key === "ArrowDown";
+    const isArrowUp = e.key === "ArrowUp";
+    const isTab = e.key === "Tab";
+    const isEnter = e.key === "Enter";
+    const isArrowRight = e.key === "ArrowRight";
 
-    if (resultBox.children.length > 0) {
-        if (e.key === "ArrowDown") {
-            e.preventDefault();
-            if (activeItem) {
-                activeItem.classList.remove("active");
-            }
-            currentIndex = (currentIndex + 1) % resultBox.children.length;
-            resultBox.children[currentIndex].classList.add("active");
-
-            // Ensure the active item is visible within the result box
-            const activeElement = resultBox.children[currentIndex];
-            activeElement.scrollIntoView({ behavior: "smooth", block: "nearest" });
-
-        } else if (e.key === "ArrowUp") {
-            e.preventDefault();
-            if (activeItem) {
-                activeItem.classList.remove("active");
-            }
-            currentIndex = (currentIndex - 1 + resultBox.children.length) % resultBox.children.length;
-            resultBox.children[currentIndex].classList.add("active");
-
-            // Ensure the active item is visible within the result box
-            const activeElement = resultBox.children[currentIndex];
-            activeElement.scrollIntoView({ behavior: "smooth", block: "nearest" });
-
-        } else if ((e.key === "ArrowRight" || e.key === "Tab") && activeItem) {
-            e.preventDefault();
-            const suggestionText = activeItem.textContent;
-            this.value = suggestionText;
-
-        } else if (e.key === "Enter") {
-            const selected = resultBox.querySelector(".active");
-            if (selected) {
-                e.preventDefault();
-                lastInteractionBy = "keyboard";
-                selected.click();
-            }
+    if (hasSuggestions && (isArrowDown || isArrowUp)) {
+        e.preventDefault();
+        // Remove previous highlight
+        if (suggestionActiveIndex >= 0 && suggestionActiveIndex < suggestions.length) {
+            suggestions[suggestionActiveIndex].classList.remove("active");
         }
+        // On first arrow, save the current input value
+        if (suggestionActiveIndex === -1) {
+            lastTypedValue = this.value;
+        }
+        // Move index
+        if (isArrowDown) {
+            suggestionActiveIndex = (suggestionActiveIndex + 1) % suggestions.length;
+        } else if (isArrowUp) {
+            suggestionActiveIndex = (suggestionActiveIndex - 1 + suggestions.length) % suggestions.length;
+        }
+        // Highlight new suggestion
+        const activeSuggestion = suggestions[suggestionActiveIndex];
+        activeSuggestion.classList.add("active");
+        activeSuggestion.scrollIntoView({ behavior: "smooth", block: "nearest" });
+        // Write suggestion text into input (like Chrome)
+        lastSuggestionValue = activeSuggestion.textContent;
+        this.value = lastSuggestionValue;
+        // Move cursor to end
+        this.setSelectionRange(this.value.length, this.value.length);
+    } else if (hasSuggestions && (isTab || isArrowRight)) {
+        const activeSuggestion = suggestions[suggestionActiveIndex];
+        if (activeSuggestion) {
+            e.preventDefault();
+            this.value = activeSuggestion.textContent;
+            this.setSelectionRange(this.value.length, this.value.length);
+        }
+    } else if (hasSuggestions && isEnter) {
+        const activeSuggestion = suggestions[suggestionActiveIndex];
+        if (activeSuggestion) {
+            e.preventDefault();
+            lastInteractionBy = "keyboard";
+            activeSuggestion.click();
+        }
+    } else if (!hasSuggestions && (isArrowDown || isArrowUp)) {
+        suggestionActiveIndex = -1;
+    }
+});
+
+// Restore input value if user types or presses Backspace/Escape
+searchInputElem.addEventListener("input", function () {
+    suggestionActiveIndex = -1;
+});
+searchInputElem.addEventListener("keydown", function (e) {
+    if (e.key === "Escape") {
+        suggestionActiveIndex = -1;
+        this.value = lastTypedValue || this.value;
+        hideResultBox();
+    } else if (!["ArrowDown", "ArrowUp", "Tab", "Enter", "ArrowRight"].includes(e.key)) {
+        suggestionActiveIndex = -1;
     }
 });
 
