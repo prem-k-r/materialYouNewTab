@@ -13,7 +13,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `Localized` - for updates related to translations, localization, or internationalization.
 - `Other` - for technical updates.
 
-<!-- ## [Unreleased](https://github.com/XengShi/materialYouNewTab/compare/v3.2...main) -->
+## [Unreleased](https://github.com/prem-k-r/materialYouNewTab/compare/v3.2...main) - July 29, 2025
+
+### Improved
+
+- Improve keyboard navigation for search suggestions ([@itz-rj-here](https://github.com/itz-rj-here)) ([#331](https://github.com/prem-k-r/materialYouNewTab/pull/33))
+
 
 ## [v3.2](https://github.com/XengShi/materialYouNewTab/compare/v3...v3.2) - July 20, 2025
 
