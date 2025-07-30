@@ -82,8 +82,8 @@ MYNT: Material You New Tab is a versatile browser extension that personalizes yo
 
 <p align="center">
     <a href="https://github.com/prem-k-r/materialYouNewTab/releases/latest"><img src="https://github.com/user-attachments/assets/51048d6d-0b35-4f62-8351-4a3ea52d2213" alt="Download from GitHub" height="48" /></a>
-    <a href="https://chromewebstore.google.com/detail/material-you-newtab/glloabhodjfmeoccmdngmhkpmdlakfbn"><img src="https://github.com/user-attachments/assets/7a829ba4-dcd0-452b-922a-5efacbfda498" alt="Download from Chrome Web Store" height="48" /></a>
-    <a href="https://addons.mozilla.org/en-US/firefox/addon/material-you-newtab/"><img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt="Download from Mozilla Add-ons" height="48" /></a>
+    <a href="https://chromewebstore.google.com/detail/mynt-material-you-new-tab/jjpokbgpiljgndebfoljdeihhkpcpfgl"><img src="https://github.com/user-attachments/assets/7a829ba4-dcd0-452b-922a-5efacbfda498" alt="Download from Chrome Web Store" height="48" /></a>
+    <a href="https://addons.mozilla.org/en-US/firefox/addon/mynt-material-you-new-tab/"><img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt="Download from Mozilla Add-ons" height="48" /></a>
 </p>
 
 ---
@@ -94,7 +94,7 @@ MYNT: Material You New Tab is a versatile browser extension that personalizes yo
 
 1. **Install from Chrome Web Store**:
 
-   - [Chrome Web Store link](https://chromewebstore.google.com/detail/material-you-newtab/glloabhodjfmeoccmdngmhkpmdlakfbn)
+   - [Chrome Web Store link](https://chromewebstore.google.com/detail/mynt-material-you-new-tab/jjpokbgpiljgndebfoljdeihhkpcpfgl)
 
    **Or** follow the manual steps below:
 
@@ -136,7 +136,7 @@ MYNT: Material You New Tab is a versatile browser extension that personalizes yo
 - Add the following (replace 32-character extension ID if installed manually) to the **Site URL**:
 
 ```text
-chrome-extension://glloabhodjfmeoccmdngmhkpmdlakfbn/index.html
+chrome-extension://jjpokbgpiljgndebfoljdeihhkpcpfgl/index.html
 ```
 
 - To find the extension ID:
