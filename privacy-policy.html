@@ -97,18 +97,25 @@
 
         .dark-mode-toggle {
             position: absolute;
-            top: 24px;
-            right: 32px;
+            top: 20px;
+            right: 20px;
             background: #fff;
             color: #333;
             border: none;
-            border-radius: 20px;
-            padding: 8px 18px;
+            border-radius: 16px;
+            padding: 8px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
             font-size: 1rem;
             cursor: pointer;
-            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
             transition: background 0.3s, color 0.3s;
             z-index: 10;
+        }
+
+        .dark-mode-toggle:hover svg {
+            transform: scale(1.02);
         }
 
         body.dark-mode .dark-mode-toggle {
@@ -121,11 +128,12 @@
 
 <body>
 
-    <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode">
-        <svg id="darkModeIcon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path id="iconPath" d="" fill="currentColor"/>
+    <button class="dark-mode-toggle" id="darkModeToggle">
+        <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path id="iconPath" d="" fill="currentColor" />
         </svg>
     </button>
+
     <div class="container" id="mainContainer">
         <h1>Privacy Policy for MYNT: Material You New Tab</h1>
 
@@ -253,14 +261,15 @@
 
 
     <script>
-        // Dark mode toggle logic (system preference, reduced repetition, SVG icon only)
+        // Dark mode toggle logic
         const toggleBtn = document.getElementById('darkModeToggle');
         const container = document.getElementById('mainContainer');
         const iconPath = document.getElementById('iconPath');
+        let isDark = localStorage.getItem('mynt-dark-mode');
 
-        // SVG paths for monotone icons
-        const moonPath = "M21 12.79A9 9 0 0 1 12.79 3a1 1 0 0 0-1.13 1.32A7 7 0 0 0 13 21a1 1 0 0 0 1.32-1.13A9 9 0 0 1 21 12.79z";
-        const sunPath = "M12 4V2m0 20v-2m8-8h2M2 12h2m15.07 7.07l1.41 1.41M4.93 4.93l1.41 1.41m12.73 0l1.41-1.41M4.93 19.07l1.41-1.41M12 7a5 5 0 1 1 0 10a5 5 0 0 1 0-10z";
+        // SVG paths
+        const moonPath = "M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z";
+        const sunPath = "M11 4V1h2v3zm0 19v-3h2v3zm9-10v-2h3v2zM1 13v-2h3v2zm17.7-6.3l-1.4-1.4l1.75-1.8l1.45 1.45zM4.95 20.5L3.5 19.05l1.8-1.75l1.4 1.4zm14.1 0l-1.75-1.8l1.4-1.4l1.8 1.75zM5.3 6.7L3.5 4.95L4.95 3.5L6.7 5.3zM12 18q-2.5 0-4.25-1.75T6 12t1.75-4.25T12 6t4.25 1.75T18 12t-1.75 4.25T12 18";
 
         function setDarkMode(isDark) {
             document.body.classList.toggle('dark-mode', isDark);
@@ -270,12 +279,12 @@
         }
 
         // Determine initial state
-        let isDark = localStorage.getItem('mynt-dark-mode');
         if (isDark === null) {
             isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
         } else {
             isDark = isDark === 'true';
         }
+
         setDarkMode(isDark);
 
         toggleBtn.addEventListener('click', () => {
