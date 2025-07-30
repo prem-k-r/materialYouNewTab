@@ -121,7 +121,11 @@
 
 <body>
 
-    <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode">🌙 Dark Mode</button>
+    <button class="dark-mode-toggle" id="darkModeToggle" aria-label="Toggle dark mode">
+        <svg id="darkModeIcon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path id="iconPath" d="" fill="currentColor"/>
+        </svg>
+    </button>
     <div class="container" id="mainContainer">
         <h1>Privacy Policy for MYNT: Material You New Tab</h1>
 
@@ -249,24 +253,34 @@
 
 
     <script>
-        // Dark mode toggle logic
+        // Dark mode toggle logic (system preference, reduced repetition, SVG icon only)
         const toggleBtn = document.getElementById('darkModeToggle');
-        const body = document.body;
         const container = document.getElementById('mainContainer');
+        const iconPath = document.getElementById('iconPath');
 
-        // Load preference
-        if (localStorage.getItem('mynt-dark-mode') === 'true') {
-            body.classList.add('dark-mode');
-            container.classList.add('dark-mode');
-            toggleBtn.textContent = '☀️ Light Mode';
+        // SVG paths for monotone icons
+        const moonPath = "M21 12.79A9 9 0 0 1 12.79 3a1 1 0 0 0-1.13 1.32A7 7 0 0 0 13 21a1 1 0 0 0 1.32-1.13A9 9 0 0 1 21 12.79z";
+        const sunPath = "M12 4V2m0 20v-2m8-8h2M2 12h2m15.07 7.07l1.41 1.41M4.93 4.93l1.41 1.41m12.73 0l1.41-1.41M4.93 19.07l1.41-1.41M12 7a5 5 0 1 1 0 10a5 5 0 0 1 0-10z";
+
+        function setDarkMode(isDark) {
+            document.body.classList.toggle('dark-mode', isDark);
+            container.classList.toggle('dark-mode', isDark);
+            iconPath.setAttribute('d', isDark ? sunPath : moonPath);
+            localStorage.setItem('mynt-dark-mode', isDark);
         }
 
+        // Determine initial state
+        let isDark = localStorage.getItem('mynt-dark-mode');
+        if (isDark === null) {
+            isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        } else {
+            isDark = isDark === 'true';
+        }
+        setDarkMode(isDark);
+
         toggleBtn.addEventListener('click', () => {
-            body.classList.toggle('dark-mode');
-            container.classList.toggle('dark-mode');
-            const isDark = body.classList.contains('dark-mode');
-            toggleBtn.textContent = isDark ? '☀️ Light Mode' : '🌙 Dark Mode';
-            localStorage.setItem('mynt-dark-mode', isDark);
+            const newDarkState = !document.body.classList.contains('dark-mode');
+            setDarkMode(newDarkState);
         });
     </script>
 </body>
