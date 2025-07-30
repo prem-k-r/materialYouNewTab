@@ -1,10 +1,10 @@
-> [!NOTE]
-> This extension is no longer maintained by XengShi. [Info](https://github.com/prem-k-r/materialYouNewTab/discussions/28#discussioncomment-13837571)
+> This extension is no longer maintained by its original creator, XengShi [(_Learn more_)](https://github.com/prem-k-r/materialYouNewTab/discussions/28#discussioncomment-13837571).  
+> It is now maintained by [Prem](https://github.com/prem-k-r) and [It'z RJ](https://github.com/itz-rj-here).
 
 <!-- Initialized : Sun 20 Aug 2023 03:41:08 PM IST -->
 <h1 align="center">
 
-<a href="https://prem-k-r.github.io/MaterialYouNewTab/"><img src="https://github.com/user-attachments/assets/d16cd78f-781d-4b51-8051-1d1744f42b7e" width="50"></a>
+<a href="https://prem-k-r.github.io/MaterialYouNewTab/"><img src="https://github.com/user-attachments/assets/48c3a9cb-06fa-4c45-92ec-194cdb7c5661" width="60"></a>
 <br>
 MYNT: Material You New Tab
 
