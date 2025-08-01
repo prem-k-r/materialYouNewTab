@@ -1,5 +1,6 @@
 > This extension is no longer maintained by its original creator, XengShi [(_Learn more_)](https://github.com/prem-k-r/materialYouNewTab/discussions/28#discussioncomment-13837571).  
 > It is now maintained by [Prem](https://github.com/prem-k-r) and [It'z RJ](https://github.com/itz-rj-here).
+> You can create a backup from the old extension’s settings and restore it into this new version.
 
 <!-- Initialized : Sun 20 Aug 2023 03:41:08 PM IST -->
 <h1 align="center">
@@ -57,7 +58,7 @@ MYNT: Material You New Tab is a versatile browser extension that personalizes yo
 - **Google Apps**: Quickly launch Gmail, Drive, Docs, and other Google services.
 - **Backup & Reset**: Save or restore your setup anytime, or reset everything to default with one click.
 - **Language Support**: Use the extension in your preferred language for better accessibility.
-- **Browser Compatibility**: Supports major browsers like **Chrome**, **Edge**, **Firefox**, **Brave**, and **Opera**.
+- **Browser Compatibility**: Supports all Chromium-based browsers, including **Chrome**, **Edge**, **Brave**, and **Opera**, as well as Firefox-based browsers like **Firefox** and **Zen**.
 
 ## 📥 Installation Guide
 
@@ -83,7 +84,7 @@ MYNT: Material You New Tab is a versatile browser extension that personalizes yo
 <p align="center">
     <a href="https://github.com/prem-k-r/materialYouNewTab/releases/latest"><img src="https://github.com/user-attachments/assets/51048d6d-0b35-4f62-8351-4a3ea52d2213" alt="Download from GitHub" height="48" /></a>
     <a href="https://chromewebstore.google.com/detail/mynt-material-you-new-tab/jjpokbgpiljgndebfoljdeihhkpcpfgl"><img src="https://github.com/user-attachments/assets/7a829ba4-dcd0-452b-922a-5efacbfda498" alt="Download from Chrome Web Store" height="48" /></a>
-    <a href="https://addons.mozilla.org/en-US/firefox/addon/mynt-material-you-new-tab/"><img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt="Download from Mozilla Add-ons" height="48" /></a>
+    <a href="https://addons.mozilla.org/en-US/firefox/addon/mynt/"><img src="https://blog.mozilla.org/addons/files/2020/04/get-the-addon-fx-apr-2020.svg" alt="Download from Mozilla Add-ons" height="48" /></a>
 </p>
 
 ---
