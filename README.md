@@ -1,11 +1,11 @@
 > This extension is no longer maintained by its original creator, XengShi [(_Learn more_)](https://github.com/prem-k-r/materialYouNewTab/discussions/28#discussioncomment-13837571).  
-> It is now maintained by [Prem](https://github.com/prem-k-r) and [It'z RJ](https://github.com/itz-rj-here).
+> It is now maintained by [Prem](https://github.com/prem-k-r) and [It'z RJ](https://github.com/itz-rj-here).  
 > You can create a backup from the old extension’s settings and restore it into this new version.
 
 <!-- Initialized : Sun 20 Aug 2023 03:41:08 PM IST -->
 <h1 align="center">
 
-<a href="https://prem-k-r.github.io/MaterialYouNewTab/"><img src="https://github.com/user-attachments/assets/48c3a9cb-06fa-4c45-92ec-194cdb7c5661" width="60"></a>
+<a href="https://prem-k-r.github.io/MaterialYouNewTab/"><img src="https://github.com/user-attachments/assets/48c3a9cb-06fa-4c45-92ec-194cdb7c5661" width="58"></a>
 <br>
 MYNT: Material You New Tab
 
@@ -164,7 +164,7 @@ Below are screenshots of the process to guide you through each step visually.
 
 1. **Install from Mozilla Extensions Store**:
 
-   - [Mozilla Add-ons link](https://addons.mozilla.org/en-US/firefox/addon/material-you-newtab/)
+   - [Mozilla Add-ons link](https://addons.mozilla.org/en-US/firefox/addon/mynt/)
 
 <img src="https://i.postimg.cc/bPW2fHX7/FireFox.png" alt="Screenshot" width="569">
 
